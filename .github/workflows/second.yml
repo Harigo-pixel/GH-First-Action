@@ -1,0 +1,11 @@
+# This is second Action flow
+name: Second WorkFlow 
+on: workflow_dispatch
+jobs:
+  second-job: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: print greeting
+        run: ehco "Hello world"
+      - name: print goodbye
+        run: echo "DONE -bye"
