@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: print greeting
-        run: ehco "Hello world"
+        run: echo "Hello world"
       - name: print goodbye
         run: echo "DONE -bye"
