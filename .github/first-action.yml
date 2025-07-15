@@ -1,0 +1,15 @@
+# This is first Action flow
+name: First WorkFlow 
+on: workflow_dispatch
+jobs:
+  first-job: 
+    runs_on: ubuntu-latest
+    steps: 
+      - name: print greeting
+        run: ehco "Hello world"
+      - name: print goodbye
+        run: echo "DONE -bye"
+        
+      
+      
+      
